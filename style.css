@@ -1,0 +1,83 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ebe0ce;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+.corner-image {
+    position: fixed; /* اجعل الصورة ثابتة */
+    bottom: 20px; /* المسافة من الأسفل */
+    right: 20px; /* المسافة من اليمين */
+    width: 300px; /* عرض الصورة */
+    height: auto; /* الحفاظ على النسبة */
+
+
+}
+
+header {
+    background-color: #8f5c29;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    height: 150px;
+    margin-bottom: 0;
+   
+}
+
+header h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+nav {
+    border: 2px solid rgb(202, 189, 4); /* إضافة إطار بسماكة 2 بكسل ولون أسود */
+    padding: 10px; /* تباعد داخلي حول النص */
+    background-color: #b3d4bd; /* لون خلفية */
+    border-radius: 5px; /* زوايا مدورة للإطار */
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #3f2308;
+    text-shadow: 0 0 15px rgb(199, 253, 4);
+}
+
+nav ul li a:active {
+    color: #3f2308;
+    text-shadow: 0 0 15px rgb(199, 253, 4); /* تأثير اللمعان للنص عند الضغط */
+}
+
+
+footer {
+    position: fixed; /* يبقي الفوتر في أسفل الشاشة */
+    bottom: 0; /* يحرك الفوتر إلى الأسفل */
+    left: 0; /* يحرك الفوتر إلى اليسار */
+    width: 100%; /* يجعل الفوتر بعرض الصفحة بالكامل */
+    background-color: #8f5c29; /* لون الخلفية */
+    text-align: center; /* توسيط النص */
+    padding: 10px; /* تباعد داخلي */
+    color: white;
+}
